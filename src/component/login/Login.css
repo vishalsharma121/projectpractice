@@ -1,0 +1,208 @@
+.d-flex.sp-bt {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+section.block-outer {
+    background-color: #f7fbfe;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    min-height: 100vh;
+}
+section.block-outer .center-logo {
+    max-width: 196px;
+    width: 100%;
+    margin: 0 auto;
+}
+section.block-outer .block-inner {
+    max-width: 421px;
+    margin: 0 auto;
+    width: 100%;
+}
+section.block-outer input[type='email'] {
+    width: 100%;
+    margin-top: 8px;
+    margin-bottom: 27px;
+    padding: 11px;
+    box-shadow: -1px 7px 21px rgba(162, 211, 248, 0.16);
+    border-radius: 4px;
+    border: 1px solid #cbd6e2;
+    background-color: #ffffff;
+}
+section.block-outer input[type='email']:focus-visible{
+outline: none;
+}
+section.block-outer input[type='password']:focus-visible{
+    outline: none;
+    }
+    section.block-outer input[type='password'] {
+        width: 100%;
+        margin-top: 8px;
+        margin-bottom: 25px;
+        padding: 11px;
+        box-shadow: -1px 7px 21px rgba(162, 211, 248, 0.16);
+        border-radius: 4px;
+        border: 1px solid #cbd6e2;
+        background-color: #ffffff;
+    }
+section.block-outer label {
+    font-family: 'Roboto', sans-serif;
+    color: #33475b;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19.96px;
+    text-align: left;
+    font-style: normal;
+    letter-spacing: 0.26px;
+}
+section.block-outer form {
+    margin-top: 47px;
+}
+section.block-outer form input[type="submit"] {
+    width: 100%;
+    border-radius: 3px;
+    background-color: #6aa74d;
+    padding: 15px;
+    border: none;
+    color: #ffffff;
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 19.96px;
+    text-align: center;
+    cursor: pointer;
+    border: 1px solid transparent;
+    transition: all 0.3s;
+    border:1px solid #6aa74d;
+}
+section.block-outer form input[type="submit"]:hover {
+    background-color: transparent;
+    color: #6aa74d;
+    border-color:#6aa74d;
+}
+section.block-outer form span.right-txt {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 19.96px;
+    display: inline-block;
+    color: #6aa74d;
+}
+section.block-outer form .forget {
+    color: #6aa74d;
+    font-family: Roboto;
+    font-size: 11px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 19.96px;
+    text-align: left;
+    margin-bottom: 28px;
+}
+section.block-outer form label.container {
+    color: #33475b;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 19.96px;
+    letter-spacing: 0.52px;
+    text-transform: capitalize;
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 30px;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+  
+  /* Hide the browser's default checkbox */
+  section.block-outer form label.container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  section.block-outer form label.container .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 21px;
+    width: 21px;
+    border-radius: 2px;
+    border: 1px solid #cbd6e2;
+    background-color: #ffffff;
+}
+  
+  /* On mouse-over, add a grey background color */
+  /* section.block-outer form label.container:hover input ~ .checkmark {
+    background-color: #6aa74d;
+  } */
+  
+  /* When the checkbox is checked, add a blue background */
+  section.block-outer form label.container input:checked ~ .checkmark {
+    background-color: #6aa74d;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  section.block-outer form label.container .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  section.block-outer form label.container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  section.block-outer form label.container .checkmark:after {
+    left: 0;
+    top: -3px;
+    right: 0;
+    margin: auto;
+    bottom: 0;
+    width: 4px;
+    height: 9px;
+    border: solid white;
+    border-width: 0px 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+section.block-outer .block-inner .title h1 {
+    color: #33475b;
+    font-family: Roboto;
+    font-size: 25px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: normal;
+    text-align: center;
+    margin-top: 16px;
+}
+section.block-outer .block-inner p {
+    color: #33475b;
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: normal;
+    line-height: 20px;
+    text-align: center;
+    margin-top: 20px;
+}

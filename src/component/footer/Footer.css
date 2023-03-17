@@ -1,0 +1,16 @@
+footer.outer {
+    text-align: center;
+    padding: 27px 0;
+    color: #33475b;
+    font-family: Roboto;
+    font-size: 11px;
+    font-weight: 300;
+    line-height: 19.96px;
+    font-style: normal;
+    letter-spacing: 0.22px;
+    border-top: 2px solid rgb(166 167 173 / 12%);
+    position: absolute;
+    width: 100%;
+    bottom:0;
+    background-color: #fff;
+}

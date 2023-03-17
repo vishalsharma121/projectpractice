@@ -1,0 +1,32 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* font-family: 'Roboto', sans-serif; */
+/* body {
+   display: flex;
+  width: 100%;
+  flex-wrap: wrap;
+  height: 100vh;
+  flex-direction: column;
+} */
+.container{
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 0px;
+  width: 100%;
+}
+img{
+  width: 100%;
+  vertical-align:bottom ;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
