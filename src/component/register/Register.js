@@ -1,13 +1,15 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import '../register/Register.css'
 import LogoImage from '../Images/logo.png'
+import {Link} from 'react-router-dom';
+
 function Register(){
     return(
         <>
         <section className="block-outer register">
         <div className="container">
            <div className="block-inner">
-                <div className="center-logo"><a href=""><img src={LogoImage} alt="logo" /></a></div>
+                <div className="center-logo"><Link to='/'><img src={LogoImage} alt="logo" /></Link></div>
                 <div className="title"><h1>It’s great to meet you.</h1></div>
                 <p>Before you dive in, let's get the rest of your account details in order.
                 </p>
@@ -40,13 +42,11 @@ function Register(){
             <p>
               <input type="checkbox" id="test4" defaultChecked="checked" />
               <label htmlFor="test4">One number, symble, or whitespace character</label>
-            </p>
-          
+            </p>     
     </div> 
-
                     <input type="submit" defaultValue="Continue" />
                   </form>
-                  <div className="bottom-content">Go back to <span className="color">practiceOS Login</span></div>
+                  <div className="bottom-content">Go back to <Link to='/'><span className="color">practiceOS Login</span></Link></div>
 
             </div>
         </div>

@@ -1,5 +1,6 @@
 import '../login/Login.css'
 import LogoImage from '../Images/logo.png'
+import { Link } from 'react-router-dom';
 
 function Login(){
     return(
@@ -7,7 +8,7 @@ function Login(){
         <section className="block-outer login">
         <div className="container">
             <div className="block-inner">
-                <div className="center-logo"><a href=""><img src={LogoImage} /></a></div>
+                <div className="center-logo"><Link to='/'><img src={LogoImage} alt="logo" /></Link></div>
 
                 <form action="/action_page.php">
                     <label htmlFor="lgemail">E-mail Address:</label>
@@ -27,7 +28,7 @@ function Login(){
 
                     <input type="submit" value="Sign in" />
                   </form>
-                  <div className="bottom-content"><span className="color">Sign up</span> for practiceOS</div>
+                  <div className="bottom-content"><Link to='/register'><span className="color">Sign up</span></Link> for practiceOS</div>
             </div>
         </div>
     </section>

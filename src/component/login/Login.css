@@ -11,6 +11,7 @@ section.block-outer {
     align-items: center;
     flex-grow: 1;
     min-height: 100vh;
+    padding: 50px 0 100px;
 }
 section.block-outer .center-logo {
     max-width: 196px;
