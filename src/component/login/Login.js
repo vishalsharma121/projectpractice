@@ -28,7 +28,7 @@ function Login(){
 
                     <input type="submit" value="Sign in" />
                   </form>
-                  <div className="bottom-content"><Link to='/register'><span className="color">Sign up</span></Link> for practiceOS</div>
+                  <div className="bottom-content">for practiceOS <Link to='/register'><span className="color">Sign up</span></Link></div>
             </div>
         </div>
     </section>
