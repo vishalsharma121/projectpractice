@@ -1,9 +1,10 @@
 import './App.css';
+import ClassComp from './component/ClassComponent';
 // import Login from './component/login/Login';
 // import Register from './component/register/Register';
 // import Footer from './component/footer/Footer';
 // import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Usestate from './component/Usestate'
+// import Usestate from './component/Usestate'
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
       </Routes>
       </BrowserRouter> */}
       {/* <Footer /> */}
-      <Usestate></Usestate>
+      {/* <Usestate></Usestate> */}
+      <ClassComp></ClassComp>
     </div>
   );
 }
