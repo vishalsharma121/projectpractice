@@ -3,6 +3,10 @@
   padding: 0;
   box-sizing: border-box;
 }
+.text-center, body{
+  text-align: center;
+}
+
 /* font-family: 'Roboto', sans-serif; */
 /* body {
    display: flex;
@@ -29,4 +33,10 @@ ul{
 }
 a{
   text-decoration: none;
+}
+.error {
+  position: relative;
+  bottom: 20px;
+  color: red;
+  font-size: 14px;
 }

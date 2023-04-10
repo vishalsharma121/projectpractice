@@ -23,7 +23,7 @@ class ClassComp extends Component {
 BtnClick(){
     // alert('vis')
     this.setState({data:this.state.data+1});
-    console.warn('run click')
+    console.warn('____')
 }
 
     render()
